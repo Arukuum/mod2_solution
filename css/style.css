@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.menu-header {
+	border: 1px solid black;
+	text-align: center;
+	width: 20%;
+	position:absolute;
+   	top:0;
+   	right:0;
+}
+
+.red-menu-item {
+	background-color: red;
+}
+
+.green-menu-item {
+	background-color: green;
+}
+
+.yellow-menu-item {
+	background-color: yellow;
+}
+
+.row {
+  width: 100%;
+}
+
+.menu-container {
+	background-color: #eee;
+	height: 150px;
+	margin: 1%;
+	padding: 10px;
+	border: 1px solid black;	
+	float: left;
+	position: relative;
+	width: 98%;
+}
+@media (min-width: 992px) 
+{
+	.col-lg-3 {width: 31.33%;}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{ 
+	.col-md-2 {
+		width: 48%;
+	}
+	.col-md-1 {width: 98%;}
+}
